@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body {
+               margin: 0;
+               padding: 0;
+               background-image:-webkit-image-set("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ8NDQ8NDQ0NDQ0NDQ0NDQ8NDQ0NFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0NFQ8PFSsZFRkrKy0tKysrKy0tNystKystLS0rNy0tLSsrLS03LS03LSstKys3NzctKy0tLSsrKy0rK//AABEIALcBEwMBIgACEQEDEQH/xAAbAAEAAwEBAQEAAAAAAAAAAAAAAQIDBAUGB//EACMQAQADAQACAgIDAQEAAAAAAAABAhEDBBIFExRBUWHwMRX/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAcEQEBAQEBAQEBAQAAAAAAAAAAARECAxIEURT/2gAMAwEAAhEDEQA/AP2kAJAAAAAAMAhIAIAEoAABANIjTQEiumgYtpqumg8W01TTTwYvpqmmjBi2p1TTRgxfTVNTpDFtFdToLEgAAJBAAAAQAAAAwCAAAAAQDECNM06jUTKJk8PE6arqNPFYtpqmmnh/K2mqaaMP5X01XTRgxbU6pqdGFi2mq6aMLF9TqmphOFYuspC0EmpAJKQCAAAAAAACBKDACAYhKsmZMqymVJlUipEzKsyiZVmVY0kW1GqzKNPFYtpquo08PFtNV00YMX01XQsGL6aqDCxfTVNTpYWL6tEs9WiQmxpErQziWlUWIqwkSzACAAYACAAAISgwISgGiVZlMyztKpFQmVJkmVdXI0hMoEKWISiTXBCUAwQA1tNV00Fi+pU00YWLiup0ixbVolSJTBJsa1aVZVaUR0y6aAIZJA0ADUaAkRpoCRGmgJQajQCZRMomVLWOQy0s7SWlnNmki4mZRqumqxcWFdSZ6kEkrVZgWxEwFSqoWmEGrUBKDMSgM06nVUlhLRK0SzhaJKxNjWrarGjarPph20AZsTUaWllexyaF5spbq5+nVw9/Kxtz5Wp16k94/lH5Efy+d6+fn7Yf+n/befktL6fVx2haLvm+HykT+3pcPLif2z7/AD3k9en7KzZzx1J6Mvg9bTZS1mc3UtdU5OLzZSbM5sj2XOVxpprOJTp4qVrEpiWcStElYbSEqRK0IPVsTiIWIarMKzDXEYNVOmWKtZqrMKlaSsxMwjFasDExSQNRDSkamvNrEIvTPrtNYaVViF4ZVz9VYBKFLy5e13R1l5/k3bec1Nc3kdnkeV3dXk9Hld7PT8POItYderlv0le7nu9HjmM1q+RMT/16Xg/JTExsvEuV6Yrvx56glfd+N5UWj/rojq+Q+O8/1mImXvcvI2NeV7fn+a0lej9iJu5I6rfYx+FSuj3PZz+6YuPlcrf2WizCLLxZNitbRK8Swiy8Smw9bxK8SwizSsosGtolZnWV4Z0avCVYWhI0mFZq0wwac6YTVHo3mqPU/pp9soqtFWnqnCtTelYhaITiYgrU2kQtCIhaEotACSw7y8ryrPU8h5PlOrxTXmeRLz+0PR7Q4utXp+dRXBernvV3Xq5+lHXz0iuK8MZdXSrC8OjmlVaXyXs/H+ZsZLxJW49JrJennO4JcfWU7NY6PG8fydh2U7PO78saSu+LrxdxV6NK3ZXhcrsrZeLOSt2tbovKpXVFl4s5q2aVszvJ66ay0rLmrZrWWVh66Ky0rLCstKyzsLW0SvDKstIZ0avCykLoo0xOCYIajDFgj1XE4kBISACRCQTm8h5Xkw9Xu87vV0+NTXmdauTpR6PSjm6Ud/HSa8+9HP0o770c/Srq56S87pRz9KvQ6Vc3Sjp46TXBaFJdPSjC0N+aTXx+2PR5dnjROS6uXRHpxolexTq3p0eXz6OmnRy9cLlejW7Wt3Bzu3pdh1yuV21s1rZx1s2rZjeT111s1rZy1s2rLHqHrprLWsuaktqyxsGuistIY0a1ZUa0hpClV4Z00rQhMIAkAAAAAAAAGHaHD1q9DpDk6VbedTXn9KubpR6PSjnvR18dE869HP05vSvzc/Tm6OeyseXfm5+lHqdOTl6c3Tx2mx5nSjl6Uel1o5OlHVx0muGarVnGlqKerfdS353dNLuGjelmXXJyvQ53dFLuDnZ1c5c3fKpXZSzekuSkujnLn6itdVJbUlz84dNIc/Sm1G9GNIdFIYdUNaNqs6Q1rDn6NeF4VhaGdNZKEwk0gEAAAAMABBneGN6uiVJhcpOS9GF6O61Gdubbnsnn25sL83p25srcWvPoTyunNzdOL2bcGHTxm/PqMeF14uW/jy+hnxJZ28L+nTz+iRN5fNX4ML8JfUT8fv6Zz8X/AE25/VyXy+Z+uV60fQz8T/sRHw8q/wBXH9L5eNzq6udXqV+I/wBjenxmMev08f05Hnc6urnR308BvTxHN37xUji585dPPm6q+O1rxc/XqbClG9atK82kUY3s1K1axBFVohnaZELQRCYRaaQCCQCAAYAAANAESYACPVX0A9CJ5o+oBtGI+lX8eAP6pYfjQj8aAP6ow/Gg/GgB908T+NB+PAF9UsT9EJ+iAH1Rifpg+pIW0H1p9AGnifQ9QLQnE4ABhgAAkAAAAAAAAAAH/9k=");
+               background-size: cover;
+               background-position: center;
+               font-family: Arial, sans-serif;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               height: 100vh;
+                }
+
+
+                
+            </style>
+    </head>
+    <body>
+        <div
+            class>
+            <div class="sm:mx-auto sm:w-full sm:max-w-md">
+                <img class="mx-auto h-12 w-auto"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyzLtnwOR2NXUclK17SBG6iEPhg0qud3gl3q5FmaH-6CrBRo6C6I2hv63s4NQ86NJ_CCE&usqp=CAU"
+                    alt="Workflow">
+                <h2
+                    class="mt-6 text-center text-3xl leading-9 font-extrabold text-gray-900">
+                    Login in to your account
+                </h2>
+                <p
+                    class="mt-2 text-center text-sm leading-5 text-blue-500 max-w">
+                    Or
+                    <a href="{% url 'register_request_view' %}"
+                        class="font-medium text-blue-500 hover:text-blue-500 focus:outline-none focus:underline transition ease-in-out duration-150">
+                        Request for a new acccount?
+                    </a>
+                </p>
+            </div>
+
+            <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
+                <div class="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
+                    <form action method="post">
+                        {% csrf_token %}
+                        <div>
+                            <label for="labor_id"
+                                class="block text-sm font-medium leading-5  text-gray-700">Labor
+                                ID</label>
+                            <div class="mt-1 relative rounded-md shadow-sm">
+                                <input type="text" id="text" name="labor_id"
+                                    placeholder="LB000..." value
+                                    class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5"
+                                    required>
+                                <div
+                                    class="hidden absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
+                                    <svg class="h-5 w-5 text-red-500"
+                                        fill="currentColor" viewBox="0 0 20 20">
+                                        <path fill-rule="evenodd"
+                                            d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-6">
+                            <label for="password"
+                                class="block text-sm font-medium leading-5 text-gray-700">Password</label>
+                            <div class="mt-1 rounded-md shadow-sm">
+                                <input id="password" name="password"
+                                    type="password" placeholder="********"
+                                    required
+                                    class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5">
+                            </div>
+                        </div>
+
+                        <div class="mt-6 flex items-center justify-end">
+
+                            <div class="text-sm leading-5">
+                                <a href="{% url 'forgot_password_view' %}"
+                                    class="font-medium text-blue-500 hover:text-blue-500 focus:outline-none focus:underline transition ease-in-out duration-150">
+                                    Forgot your password?
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mt-6">
+                            <span class="block w-full rounded-md shadow-sm">
+                                <button type="submit"
+                                    class="w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-blue-500 hover:bg-blue-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition duration-150 ease-in-out">
+                                    Login
+                                </button>
+                            </span>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
